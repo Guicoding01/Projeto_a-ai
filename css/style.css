@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,head{
+    height: 100%;
+    background: -webkit-linear-gradient(left, #523594bb, #ffffff);
+}
+/* Parte de cima do header e menu*/
+
+header{
+    width: 100%;
+    height: 3em;
+    background-color: #ffffff00;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(158, 157, 157, 0.575);
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.w50{
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rebeccapurple;
+    margin-top: 5px;
+}
+span{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    color: rebeccapurple;
+    font-weight: 900;
+}
+
+/* sessoes */
+
+aside{
+    
+    height: 580px;
+    width: 92%;
+    background-color: rgba(95, 95, 95, 0.201);
+    margin: 20px auto;
+    border-radius:5px;
+   
+    
+}
+
+.center{
+  margin:5px auto;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+
+
+.sessao_2{
+    display: flex;
+    height: 460px;
+    margin-left: 15px;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    
+}
+.one{
+    display: flex;
+    border-radius: 5%;
+    margin-top: 21px;
+    margin-left: 15px;
+    height: 510px;
+    width: 15%;
+   
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJulEulJSZXQ_i_uTDcz4ooE1peLSLkyVww&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x:50%;
+    opacity: 88%;
+    
+}
+
+
+.twe{
+    display: flex;
+    height:170px;
+    width: 31.3%;
+    margin-top: 20px;
+    background-image: url(https://img.elo7.com.br/product/original/1CCB37D/500un-copo-descartavel-300ml-para-acai-suco-sorvete-copo-acai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    opacity: 85%;
+    
+}
+.three{
+    display: flex;
+    border-radius: 5px;
+    height:170px;
+    width: 32.3%;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(https://img.elo7.com.br/product/original/1CCB37D/500un-copo-descartavel-300ml-para-acai-suco-sorvete-copo-acai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: 1s;
+    opacity: 85%;
+}
+.diferente{
+    display: flex;
+    border-radius: 5px;
+    height:170px;
+    width:33.7%;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(https://img.elo7.com.br/product/original/1CCB37D/500un-copo-descartavel-300ml-para-acai-suco-sorvete-copo-acai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: 1s;
+    opacity: 85%;
+}
+ .diferente:hover,.twe:hover,.three:hover{
+    transform: scale(85%);
+    transition: 1s;
+}
+
+/* sessao de baixo maior */
+.for{
+
+    text-align: center;
+    height:320px;
+    width: 100%;
+    margin-top:20px;
+    background-image: url(https://www.nerdfitness.com/wp-content/uploads/2018/09/acai-bowl-spoon.gif);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+
+
+}
+h4{
+    color:rebeccapurple;
+    border-bottom:3px solid rgba(95, 95, 95, 0.201) ;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    transition: 2s;
+    
+}
+.for h4:hover,.five h4:hover{
+    color:black;
+    transition: 1.5s;
+
+}
+.for span{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    margin-left: 3px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.for span:nth-last-of-type(1){
+    color: rgba(0, 0, 0, 0.608);
+    border: 0;
+    font-weight: bold;
+} 
+
+
+footer{
+    text-align: center;
+}
